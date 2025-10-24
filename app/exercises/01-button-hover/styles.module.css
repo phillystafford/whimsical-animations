@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.whimsicalButton {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: 2px solid var(--primary-color);
+  background: white;
+  color: var(--primary-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all var(--transition-speed);
+}
+
+.whimsicalButton:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+.originalCode {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: var(--border-radius);
+  width: 100%;
+}
+

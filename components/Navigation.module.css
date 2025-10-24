@@ -1,0 +1,23 @@
+.nav {
+  background: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home {
+  color: var(--primary-color);
+  transition: opacity var(--transition-speed);
+}
+
+.home:hover {
+  opacity: 0.8;
+}
+
+.current {
+  color: #666;
+  margin-left: auto;
+}
+
