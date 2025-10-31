@@ -5,8 +5,7 @@
     hsl(240deg 20% 10%),
     hsl(240deg 40% 2%)
   );
-  min-height: 100svh;
-  min-height: 100vh;
+  height: 80vh;
   border: 2px solid hsl(240deg 20% 20%);
   border-radius: 5px;
   position: relative;
