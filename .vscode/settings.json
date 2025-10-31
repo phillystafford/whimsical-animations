@@ -1,8 +1,8 @@
 {
-  "editor.defaultFormatter": "biomejs.biome",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.biome": "explicit"
+    "source.fixAll.eslint": "explicit"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#fe65bb",
@@ -24,20 +24,5 @@
     "titleBar.inactiveBackground": "#fe32a499",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#fe32a4",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  "peacock.color": "#fe32a4"
 }
