@@ -3,7 +3,7 @@ export const exercises = [
     id: "01-starry-night",
     title: "Starry Night",
     description: "Generate animated stars on button click",
-    date: "2024-10-31",
+    date: "2025-10-31",
   },
   {
     id: "01-button-hover",

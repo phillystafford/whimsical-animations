@@ -46,6 +46,31 @@
 /* Style for individual stars you'll create */
 .star {
   position: absolute;
+  pointer-events: none;
   /* Add your animation styles here */
+  animation:
+    fadeIn 0.5s ease-in-out,
+    twinkle var(--twinkle-duration, 2s) ease-in-out 0.5s infinite;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: var(--twinkle-opacity, 0.5);
+  }
+  100% {
+    opacity: 1;
+  }
+}
