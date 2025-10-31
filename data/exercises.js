@@ -1,5 +1,11 @@
 export const exercises = [
   {
+    id: "01-starry-night",
+    title: "Starry Night",
+    description: "Generate animated stars on button click",
+    date: "2024-10-31",
+  },
+  {
     id: "01-button-hover",
     title: "Button Hover Effect",
     description: "Smooth hover animations for buttons",

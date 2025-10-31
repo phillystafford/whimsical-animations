@@ -1,0 +1,52 @@
+/* Josh's body styles become container styles */
+.body {
+  background: linear-gradient(
+    to bottom,
+    hsl(240deg 20% 10%),
+    hsl(240deg 40% 2%)
+  );
+  min-height: 100svh;
+  min-height: 100vh;
+  border: 2px solid hsl(240deg 20% 20%);
+  border-radius: 5px;
+  position: relative;
+  color-scheme: dark;
+}
+
+/* Container for dynamically added stars */
+.starContainer {
+  position: absolute;
+  inset: 0;
+  /* Ensure stars appear behind the button */
+  z-index: 1;
+}
+
+.particleButton {
+  position: absolute;
+  /* Ensure that the button sits in front of the particles: */
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 1rem 3rem;
+  border: none;
+  border-bottom: 3px solid hsl(240deg 90% 36%);
+  border-radius: 6px;
+  background: hsl(240deg 90% 48%);
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.particleButton:active {
+  border-bottom-width: 1px;
+}
+
+/* Style for individual stars you'll create */
+.star {
+  position: absolute;
+  /* Add your animation styles here */
+}
+
